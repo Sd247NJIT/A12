@@ -1,10 +1,10 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
 html {
 	background-color: white;
-	
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -15,6 +15,7 @@ body {
 }
 a:focus, a:hover {
 	font-style: italic;
+}
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
@@ -25,8 +26,7 @@ header {
 	background-image: -o-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);	
-	
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
 	font-size: 175%;
@@ -45,20 +45,17 @@ header img {
 }
 main {
 	clear: left;
+}
 section {
 	width: 525px;
 	float: right;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
-	font-size: 150%;
-	padding: .5em 0 .25em 0;
-	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
-}
-section h2 {
 	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
 }
 section p {
 	padding-bottom: .5em;
@@ -73,17 +70,14 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+
+/* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
-	padding-top: 0;
-}
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+	font-size: 115%;
+	padding: 0 0 .25em 0;
 }
 article img {
 	float: right;
@@ -108,10 +102,7 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
-footer p {
-	text-align: center;
-/*footer {
+footer {
 	background-color: #931420;
 	clear: both;
 
@@ -121,5 +112,4 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-*/
-}
+
