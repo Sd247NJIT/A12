@@ -1,4 +1,3 @@
-/* the styles for the elements */
 * {
 	margin: 0;
 	padding: 0;
@@ -17,7 +16,6 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 }
-/* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
@@ -45,12 +43,9 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-/* the styles for the main content */
 main {
 	clear: left;
 }
-
-/* the styles for the section */
 section {
 	width: 525px;
 	float: right;
@@ -89,8 +84,6 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-
-/* the styles for the aside */
 aside {
 	width: 215px;
 	float: right;
@@ -109,8 +102,6 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
-/* the styles for the footer */
 footer {
 	background-color: #931420;
 	clear: both;
